@@ -41,6 +41,23 @@ public class AdapterRecycler extends RecyclerView.Adapter<AdapterRecycler.ViewHo
         public ViewHolderItem(View itemView) {
             super(itemView);
             txtItemRecycler = (TextView)itemView.findViewById(R.id.txt_item_recycler);
+            itemView.setOnClickListener(new View.OnClickListener() {
+                @Override
+                public void onClick(View view) {
+                    if(mOnItemClickListener!=null){
+                        mOnItemClickListener.setOnItemClickListener(getPosition());
+                    }
+                }
+            });
         }
+    }
+
+    OnItemClickListener mOnItemClickListener;
+    public interface OnItemClickListener{
+        public void setOnItemClickListener(int posicion);
+    }
+
+    public void setOnItemClickListener(OnItemClickListener mItemClickListener){
+        this.mOnItemClickListener = mItemClickListener;
     }
 }

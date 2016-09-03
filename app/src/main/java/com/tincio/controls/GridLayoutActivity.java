@@ -32,6 +32,5 @@ public class GridLayoutActivity extends AppCompatActivity {
                 "Interestelar1","Interestelar2","Interestelar3","Interestelar4"};
         adapterRecycler = new AdapterRecyclerGridLayout(Arrays.asList(array));
         recImageMovie.setAdapter(adapterRecycler);
-
     }
 }
