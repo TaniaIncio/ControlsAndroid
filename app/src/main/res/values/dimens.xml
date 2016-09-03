@@ -8,4 +8,8 @@
 
     <!--Activity RecyclerView-->
     <dimen name="padd_imageview">16dp</dimen>
+
+    <!--Actvity gridlayout-->
+    <dimen name="activity_gridlayout_paddiconfavorito">16dp</dimen>
+    <dimen name="activity_gridlayout_marginrow">5dp</dimen>
 </resources>

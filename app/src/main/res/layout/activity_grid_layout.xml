@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@mipmap/background_gridlayout"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <android.support.v7.widget.RecyclerView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/activity_gridlayout_recycler"
+        tools:listitem="@layout/row_grid_layout">
+    </android.support.v7.widget.RecyclerView>
+</FrameLayout>
+<!--<GridLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="fill_parent"
+    android:columnCount="2"
+    android:layout_gravity="center_horizontal"
+    tools:context="com.tincio.controls.GridLayoutActivity">
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:gravity="center"
+        android:layout_columnSpan="1"
+        android:src="@mipmap/imagen"/>
+   <!- <Space android:layout_width="wrap_content"
+        android:layout_height="match_parent"/>
+
+        android:layout_columnSpan="1"
+        android:layout_columnWeight="1"-->
+   <!-- <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:layout_columnSpan="1"
+        android:src="@mipmap/imagen"/>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"/>
+
+</GridLayout>-->
