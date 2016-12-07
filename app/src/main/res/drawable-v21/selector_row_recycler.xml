@@ -10,3 +10,15 @@
         </shape>
     </item>
 </ripple>
+
+<!--
+<ripple xmlns:android="http://schemas.android.com/apk/res/android"
+    android:color="@color/colorPrimary">
+    <item >
+        <shape android:shape="rectangle" >
+            <corners android:radius="@dimen/radius_button"></corners>
+            <gradient android:startColor="@color/orange_button_dark"
+                android:endColor="@color/orange_button_light"></gradient>
+        </shape>
+    </item>
+</ripple>-->

@@ -12,4 +12,5 @@
     <!--Actvity gridlayout-->
     <dimen name="activity_gridlayout_paddiconfavorito">16dp</dimen>
     <dimen name="activity_gridlayout_marginrow">5dp</dimen>
+    <dimen name="appbar_padding_top">8dp</dimen>
 </resources>

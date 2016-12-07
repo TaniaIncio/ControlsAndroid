@@ -8,4 +8,12 @@
     <color name="grey_800_trans">#BF424242</color>
     <color name="green_movies">#007362</color>
     <color name="green_movies_dark">#004534</color>
+
+    <color name="orange_button_light">#ffA000</color>
+    <color name="orange_button_dark">#ff8200</color>
+
+    <!--Tabs-->
+    <color name="red_tab_selected">#9B1417</color>
+    <color name="red_tab_selected_icon">#B71C1C</color>
+    <color name="transparent">#00ffffff</color>
 </resources>

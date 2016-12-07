@@ -11,13 +11,20 @@
         <activity
             android:name=".ScrollingActivity"
             android:label="@string/app_name"
-            android:theme="@style/AppTheme.NoActionBar"></activity>
-        <activity android:name=".RecyclerActivity">
-
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name=".RecyclerActivity" />
+        <activity android:name=".GridLayoutActivity"></activity>
+        <activity
+            android:name=".OptionsDialogActivity"
+            android:label="@string/title_activity_dialog">
         </activity>
-        <activity android:name=".GridLayoutActivity">
+        <activity
+            android:name=".TabbViewPagerActivity"
+            android:label="@string/title_activity_tabb_view_pager"
+            android:theme="@style/AppTheme.NoActionBar">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
+
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
