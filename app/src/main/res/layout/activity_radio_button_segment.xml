@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:segmentedgroup="http://schemas.android.com/apk/res-auto"
+    tools:context="com.tincio.controls.RadioButtonSegmentActivity">
+    <com.tincio.controls.widget.SegmentedGroup
+        android:id="@+id/segmented3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:orientation="horizontal"
+        segmentedgroup:sc_border_width="1dp"
+        segmentedgroup:sc_corner_radius="5dp"
+        segmentedgroup:sc_tint_color="#009688">
+
+        <RadioButton
+            android:id="@+id/button31"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="One"
+            style="@style/RadioButton" />
+
+        <RadioButton
+            android:id="@+id/button32"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Two"
+            style="@style/RadioButton" />
+
+        <RadioButton
+            android:id="@+id/button33"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Three"
+            style="@style/RadioButton" />
+    </com.tincio.controls.widget.SegmentedGroup>
+</LinearLayout>
