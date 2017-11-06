@@ -18,6 +18,7 @@ import android.view.MenuItem;
 import android.view.View;
 import android.view.ViewGroup;
 
+import android.widget.Button;
 import android.widget.ImageView;
 import android.widget.TextView;
 
@@ -147,6 +148,12 @@ public class TabbViewPagerActivity extends AppCompatActivity {
             View rootView = inflater.inflate(R.layout.fragment_tabb_view_pager, container, false);
             TextView textView = (TextView) rootView.findViewById(R.id.section_label);
             textView.setText(getString(R.string.section_format, getArguments().getInt(ARG_SECTION_NUMBER)));
+            rootView.findViewById(R.id.btn_go).setOnClickListener(new View.OnClickListener() {
+                @Override
+                public void onClick(View v) {
+                    getChildFragmentManager().beginTransaction().replace(R.id.main_content, new ChildFragment()).commit();
+                }
+            });
             return rootView;
         }
     }
